@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>PrismLauncher</title>
+    <title>Prism Launcher</title>
     
     <link>https://prismlauncher.org/feed/appcast.xml</link>
     <language>en</language>
@@ -54,7 +54,7 @@ With this wonderful new version you get many cool things, like bug fixes and als
         
         
         <enclosure sparkle:os="macos"
-            url="https://github.com/placeholdermc/PrismLauncher/releases/download/1.4.2/PrismLauncher-macOS-1.4.2.tar.gz"
+            url="https://github.com/PrismLauncher/PrismLauncher/releases/download/1.4.2/PrismLauncher-macOS-1.4.2.tar.gz"
             length="0"
             type="application/octet-stream"
             sparkle:edSignature="dU+pOB6d8WvEROprt/tx3Fx3bda8NjbRAEBbpIhvM3es9BPGtfJTv/9hiXDDKBRBvNPtoCbWvuBnFAKmtMJKDA=="/>
@@ -91,7 +91,7 @@ This update should fix some of the issues you might have faced with 1.4.0.&lt;/p
         
         
         <enclosure sparkle:os="macos"
-            url="https://github.com/placeholdermc/PrismLauncher/releases/download/1.4.1/PrismLauncher-macOS-1.4.1.tar.gz"
+            url="https://github.com/PrismLauncher/PrismLauncher/releases/download/1.4.1/PrismLauncher-macOS-1.4.1.tar.gz"
             length="0"
             type="application/octet-stream"
             sparkle:edSignature="uANdz2kfHkcqN3Q+TFcZEF2j+tbFaHBcPaACwGi0AdRho1faw56g4yXWV1VGttSEslibY602knCCE+Zj6RIPAw=="/>
@@ -178,7 +178,7 @@ No longer should you need to deal with wrapper commands to enable &lt;a href=&qu
         
         
         <enclosure sparkle:os="macos"
-            url="https://github.com/placeholdermc/PrismLauncher/releases/download/1.4.0/PrismLauncher-macOS-1.4.0.tar.gz"
+            url="https://github.com/PrismLauncher/PrismLauncher/releases/download/1.4.0/PrismLauncher-macOS-1.4.0.tar.gz"
             length="0"
             type="application/octet-stream"
             sparkle:edSignature="v2Lgqsiw8Zs/Qq87k80BmaUvT+yLIE5P4iY9H80iKQ30GExflxF1WaUAQnVHYRHGxiZyFNwwWwQuLVAegy1RBQ=="/>

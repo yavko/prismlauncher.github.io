@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>PrismLauncher</title>
+	<title>Prism Launcher</title>
 	<subtitle>An Open Source Minecraft launcher with the ability to manage multiple instances, accounts and mods. Focused on user freedom and free redistributability.</subtitle>
 	
 	<link href="https://prismlauncher.org/feed/feed.xml" rel="self"/>
@@ -8,7 +8,7 @@
 	<updated>2022-09-08T00:00:00Z</updated>
 	<id>https://prismlauncher.org/</id>
 	<author>
-		<name>PrismLauncher</name>
+		<name>Prism Launcher</name>
 		<email>youremailaddress@example.com</email>
 	</author>
 	
