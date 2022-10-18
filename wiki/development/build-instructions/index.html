@@ -149,11 +149,8 @@ Both <code>flatpak</code> and <code>flatpak-builder</code> must be installed on 
 <li>
 <p>Choose the components that you wish install.</p>
 <ul>
-<li>You need Qt 5.12.x 64-bit ticked. (or a newer version)
-<ul>
+<li>You need Qt 5.12.x 64-bit ticked. (or a newer version)</li>
 <li>Alternatively you can choose Qt 6.0 or newer</li>
-</ul>
-</li>
 <li>You need Tools/Qt Creator ticked.</li>
 <li>Other components are selected by default, you can un-tick them if you don't need them.</li>
 </ul>
@@ -163,11 +160,11 @@ Both <code>flatpak</code> and <code>flatpak-builder</code> must be installed on 
 </li>
 <li>
 <p>Double-check the install details and then click &quot;Install&quot;.</p>
-</li>
-</ol>
 <ul>
 <li>Installation can take a very long time, go grab a cup of tea or something and let it work.</li>
 </ul>
+</li>
+</ol>
 <h3 id="loading-the-project-in-qt-creator-(optional)" tabindex="-1">Loading the project in Qt Creator (optional) <a class="direct-link" href="#loading-the-project-in-qt-creator-(optional)" aria-hidden="true">#</a></h3>
 <ol>
 <li>
@@ -301,7 +298,7 @@ need to be fixed with <code>codesign -fs -</code>.</p>
 </ul>
 <p>You can use IDEs, like KDevelop or QtCreator, to open the CMake project if you want to work on the code.</p>
 <h3 id="building-a-portable-binary-1" tabindex="-1">Building a portable binary <a class="direct-link" href="#building-a-portable-binary-1" aria-hidden="true">#</a></h3>
-<pre class="language-bash"><code class="language-bash"><span class="token function">mkdir</span> <span class="token function">install</span><br><span class="token comment"># configure the project</span><br>cmake -S <span class="token builtin class-name">.</span> -B build <span class="token punctuation">\</span><br>   -DCMAKE_INSTALL_PREFIX<span class="token operator">=</span>./install -DCMAKE_PREFIX_PATH<span class="token operator">=</span>/usr/local/lib/qt5/cmake -DENABLE_LTO<span class="token operator">=</span>ON <br><span class="token comment"># build</span><br><span class="token builtin class-name">cd</span> build<br><span class="token function">make</span> -j<span class="token variable"><span class="token variable">$(</span>nproc<span class="token variable">)</span></span> <span class="token function">install</span><br>cmake --install <span class="token function">install</span> --component portable</code></pre>
+<pre class="language-bash"><code class="language-bash"><span class="token function">mkdir</span> <span class="token function">install</span><br><span class="token comment"># configure the project</span><br>cmake -S <span class="token builtin class-name">.</span> -B build <span class="token punctuation">\</span><br>   -DCMAKE_INSTALL_PREFIX<span class="token operator">=</span>./install -DCMAKE_PREFIX_PATH<span class="token operator">=</span>/usr/local/lib/qt5/cmake -DENABLE_LTO<span class="token operator">=</span>ON<br><span class="token comment"># build</span><br><span class="token builtin class-name">cd</span> build<br><span class="token function">make</span> -j<span class="token variable"><span class="token variable">$(</span>nproc<span class="token variable">)</span></span> <span class="token function">install</span><br>cmake --install <span class="token function">install</span> --component portable</code></pre>
 <h3 id="building-and-installing-to-the-system-1" tabindex="-1">Building &amp; installing to the system <a class="direct-link" href="#building-and-installing-to-the-system-1" aria-hidden="true">#</a></h3>
 <p>This is the preferred method of installation, and is suitable for packages.</p>
 <pre class="language-bash"><code class="language-bash"><span class="token comment"># configure everything</span><br>cmake -S <span class="token builtin class-name">.</span> -B build <span class="token punctuation">\</span><br>   -DCMAKE_BUILD_TYPE<span class="token operator">=</span>Release <span class="token punctuation">\</span><br>   -DCMAKE_INSTALL_PREFIX<span class="token operator">=</span><span class="token string">"/usr/local"</span> <span class="token punctuation">\</span> <span class="token comment"># /usr/local is default in OpenBSD and FreeBSD</span><br>   -DCMAKE_PREFIX_PATH<span class="token operator">=</span>/usr/local/lib/qt5/cmake <span class="token comment"># use linux layout and point to qt5 libs</span><br>   -DENABLE_LTO<span class="token operator">=</span>ON <span class="token comment"># if you want to enable LTO/IPO</span><br><span class="token builtin class-name">cd</span> build<br><span class="token function">make</span> -j<span class="token variable"><span class="token variable">$(</span>nproc<span class="token variable">)</span></span> <span class="token function">install</span> <span class="token comment"># Optionally specify DESTDIR for packages (i.e. DESTDIR=${pkgdir})</span></code></pre>
