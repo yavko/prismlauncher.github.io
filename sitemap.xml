@@ -87,26 +87,6 @@
   </url>
   
   <url>
-    <loc>https://prismlauncher.org/download/linux/</loc>
-    <lastmod>2022-10-18</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://prismlauncher.org/download/mac/</loc>
-    <lastmod>2022-10-18</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://prismlauncher.org/download/steam-deck/</loc>
-    <lastmod>2022-10-18</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://prismlauncher.org/download/</loc>
-    <lastmod>2022-10-18</lastmod>
-  </url>
-  
-  <url>
     <loc>https://prismlauncher.org/</loc>
     <lastmod>2022-10-18</lastmod>
   </url>
@@ -148,11 +128,6 @@
   
   <url>
     <loc>https://prismlauncher.org/tags/release/</loc>
-    <lastmod>2022-10-18</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://prismlauncher.org/tags/download/</loc>
     <lastmod>2022-10-18</lastmod>
   </url>
   
