@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>PolyMC</title>
+    <title>PrismLauncher</title>
     
-    <link>https://polymc.org/feed/appcast.xml</link>
+    <link>https://prismlauncher.org/feed/appcast.xml</link>
     <language>en</language>
     
       <item>
         <title>PolyMC Update 1.4.2, now available (macOS)</title>
-        <link>https://polymc.org/news/release-1.4.2/</link>
+        <link>https://prismlauncher.org/news/release-1.4.2/</link>
         <sparkle:version>1.4.2</sparkle:version>
         <description>
             &lt;p&gt;It has been a while.&lt;br /&gt;
 With this wonderful new version you get many cool things, like bug fixes and also bug fixes!&lt;/p&gt;
 &lt;p&gt;If you were building PolyMC yourself, make sure your compiler supports C++17, as it is a requirement from now on.&lt;/p&gt;
 &lt;p&gt;Thanks to all contributors, who have worked on this release!&lt;/p&gt;
-&lt;h2 id=&quot;changelog&quot; tabindex=&quot;-1&quot;&gt;Changelog &lt;a class=&quot;direct-link&quot; href=&quot;https://polymc.org/news/release-1.4.2/#changelog&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&quot;added&quot; tabindex=&quot;-1&quot;&gt;Added &lt;a class=&quot;direct-link&quot; href=&quot;https://polymc.org/news/release-1.4.2/#added&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id=&quot;changelog&quot; tabindex=&quot;-1&quot;&gt;Changelog &lt;a class=&quot;direct-link&quot; href=&quot;https://prismlauncher.org/news/release-1.4.2/#changelog&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;added&quot; tabindex=&quot;-1&quot;&gt;Added &lt;a class=&quot;direct-link&quot; href=&quot;https://prismlauncher.org/news/release-1.4.2/#added&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;[OpenBSD] Add root path detection by @Scrumplex in #1019&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&quot;changed&quot; tabindex=&quot;-1&quot;&gt;Changed &lt;a class=&quot;direct-link&quot; href=&quot;https://polymc.org/news/release-1.4.2/#changed&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;changed&quot; tabindex=&quot;-1&quot;&gt;Changed &lt;a class=&quot;direct-link&quot; href=&quot;https://prismlauncher.org/news/release-1.4.2/#changed&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Bump to C++17 by @Scrumplex and @LennyMcLennington in #941&lt;/li&gt;
 &lt;li&gt;Hide &#39;More news...&#39; button if the news aren&#39;t loaded yet by @flowln in #1049&lt;/li&gt;
@@ -29,7 +29,7 @@ With this wonderful new version you get many cool things, like bug fixes and als
 &lt;li&gt;Update copyright notices by @DioEgizio in #1073&lt;/li&gt;
 &lt;li&gt;[macOS] Downgrade to Qt 6.3.0 by @DioEgizio in #1014&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&quot;fixed&quot; tabindex=&quot;-1&quot;&gt;Fixed &lt;a class=&quot;direct-link&quot; href=&quot;https://polymc.org/news/release-1.4.2/#fixed&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;fixed&quot; tabindex=&quot;-1&quot;&gt;Fixed &lt;a class=&quot;direct-link&quot; href=&quot;https://prismlauncher.org/news/release-1.4.2/#fixed&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Allow user to interrupt launch after 3 tries by @Scrumplex in #1018&lt;/li&gt;
 &lt;li&gt;Cleanup old mod metadata by @flowln in #1017 #1044&lt;/li&gt;
@@ -45,7 +45,7 @@ With this wonderful new version you get many cool things, like bug fixes and als
 &lt;li&gt;[Linux] Update AppStream info by @DioEgizio in #1058&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a href=&quot;https://github.com/PolyMC/PolyMC/compare/1.4.1...1.4.2&quot;&gt;https://github.com/PolyMC/PolyMC/compare/1.4.1...1.4.2&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;You can &lt;a href=&quot;https://polymc.org/download&quot;&gt;grab the latest download here&lt;/a&gt; for your respective platform.&lt;/p&gt;
+&lt;p&gt;You can &lt;a href=&quot;https://prismlauncher.org/download&quot;&gt;grab the latest download here&lt;/a&gt; for your respective platform.&lt;/p&gt;
 
         </description>
         <pubDate>2022-09-08T00:00:00Z</pubDate>
@@ -54,7 +54,7 @@ With this wonderful new version you get many cool things, like bug fixes and als
         
         
         <enclosure sparkle:os="macos"
-            url="https://github.com/PolyMC/PolyMC/releases/download/1.4.2/PolyMC-macOS-1.4.2.tar.gz"
+            url="https://github.com/placeholdermc/PrismLauncher/releases/download/1.4.2/PrismLauncher-macOS-1.4.2.tar.gz"
             length="0"
             type="application/octet-stream"
             sparkle:edSignature="dU+pOB6d8WvEROprt/tx3Fx3bda8NjbRAEBbpIhvM3es9BPGtfJTv/9hiXDDKBRBvNPtoCbWvuBnFAKmtMJKDA=="/>
@@ -62,18 +62,18 @@ With this wonderful new version you get many cool things, like bug fixes and als
     
       <item>
         <title>PolyMC Update 1.4.1, now available (macOS)</title>
-        <link>https://polymc.org/news/release-1.4.1/</link>
+        <link>https://prismlauncher.org/news/release-1.4.1/</link>
         <sparkle:version>1.4.1</sparkle:version>
         <description>
             &lt;p&gt;We have noticed that some things from our recent 1.4.0 release weren&#39;t working quite well.&lt;br /&gt;
 This update should fix some of the issues you might have faced with 1.4.0.&lt;/p&gt;
 &lt;p&gt;Thanks to all contributors, who have worked on this release!&lt;/p&gt;
-&lt;h2 id=&quot;changelog&quot; tabindex=&quot;-1&quot;&gt;Changelog &lt;a class=&quot;direct-link&quot; href=&quot;https://polymc.org/news/release-1.4.1/#changelog&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&quot;changed&quot; tabindex=&quot;-1&quot;&gt;Changed &lt;a class=&quot;direct-link&quot; href=&quot;https://polymc.org/news/release-1.4.1/#changed&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id=&quot;changelog&quot; tabindex=&quot;-1&quot;&gt;Changelog &lt;a class=&quot;direct-link&quot; href=&quot;https://prismlauncher.org/news/release-1.4.1/#changelog&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;changed&quot; tabindex=&quot;-1&quot;&gt;Changed &lt;a class=&quot;direct-link&quot; href=&quot;https://prismlauncher.org/news/release-1.4.1/#changed&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Hide empty &amp;quot;Performance&amp;quot; settings on non-Linux builds by @flowln in #951&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&quot;fixed&quot; tabindex=&quot;-1&quot;&gt;Fixed &lt;a class=&quot;direct-link&quot; href=&quot;https://polymc.org/news/release-1.4.1/#fixed&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;fixed&quot; tabindex=&quot;-1&quot;&gt;Fixed &lt;a class=&quot;direct-link&quot; href=&quot;https://prismlauncher.org/news/release-1.4.1/#fixed&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Fix crash when JAR-mods are applied by @flowln in #956&lt;/li&gt;
 &lt;li&gt;Fix filter on resources pages (e.g. Mods page) by @flowln in #961&lt;/li&gt;
@@ -82,7 +82,7 @@ This update should fix some of the issues you might have faced with 1.4.0.&lt;/p
 &lt;li&gt;Resolve CurseForge mods for FTB modpacks by @flowln and @Scrumplex in #699&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a href=&quot;https://github.com/PolyMC/PolyMC/compare/1.4.0...1.4.1&quot;&gt;https://github.com/PolyMC/PolyMC/compare/1.4.0...1.4.1&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;You can &lt;a href=&quot;https://polymc.org/download&quot;&gt;grab the latest download here&lt;/a&gt; for your respective platform.&lt;/p&gt;
+&lt;p&gt;You can &lt;a href=&quot;https://prismlauncher.org/download&quot;&gt;grab the latest download here&lt;/a&gt; for your respective platform.&lt;/p&gt;
 
         </description>
         <pubDate>2022-07-28T00:00:00Z</pubDate>
@@ -91,7 +91,7 @@ This update should fix some of the issues you might have faced with 1.4.0.&lt;/p
         
         
         <enclosure sparkle:os="macos"
-            url="https://github.com/PolyMC/PolyMC/releases/download/1.4.1/PolyMC-macOS-1.4.1.tar.gz"
+            url="https://github.com/placeholdermc/PrismLauncher/releases/download/1.4.1/PrismLauncher-macOS-1.4.1.tar.gz"
             length="0"
             type="application/octet-stream"
             sparkle:edSignature="uANdz2kfHkcqN3Q+TFcZEF2j+tbFaHBcPaACwGi0AdRho1faw56g4yXWV1VGttSEslibY602knCCE+Zj6RIPAw=="/>
@@ -99,7 +99,7 @@ This update should fix some of the issues you might have faced with 1.4.0.&lt;/p
     
       <item>
         <title>PolyMC Update 1.4.0, now available (macOS)</title>
-        <link>https://polymc.org/news/release-1.4.0/</link>
+        <link>https://prismlauncher.org/news/release-1.4.0/</link>
         <sparkle:version>1.4.0</sparkle:version>
         <description>
             &lt;p&gt;Whoa! There have been a few things since our last feature release almost two months ago!&lt;/p&gt;
@@ -109,8 +109,8 @@ Don&#39;t worry, Qt 5 will still be supported and packages using it will still b
 &lt;p&gt;As a Linux user, you should definitely take a look at the new &lt;code&gt;Performance&lt;/code&gt; tab in the settings.&lt;br /&gt;
 No longer should you need to deal with wrapper commands to enable &lt;a href=&quot;https://github.com/flightlessmango/MangoHud&quot;&gt;MangoHud&lt;/a&gt;, &lt;a href=&quot;https://github.com/FeralInteractive/gamemode&quot;&gt;GameMode&lt;/a&gt; or to utilize your dedicated GPU in a hybrid GPU setup.&lt;/p&gt;
 &lt;p&gt;Thanks to all contributors, who have worked on this release!&lt;/p&gt;
-&lt;h2 id=&quot;changelog&quot; tabindex=&quot;-1&quot;&gt;Changelog &lt;a class=&quot;direct-link&quot; href=&quot;https://polymc.org/news/release-1.4.0/#changelog&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&quot;added&quot; tabindex=&quot;-1&quot;&gt;Added &lt;a class=&quot;direct-link&quot; href=&quot;https://polymc.org/news/release-1.4.0/#added&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id=&quot;changelog&quot; tabindex=&quot;-1&quot;&gt;Changelog &lt;a class=&quot;direct-link&quot; href=&quot;https://prismlauncher.org/news/release-1.4.0/#changelog&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;added&quot; tabindex=&quot;-1&quot;&gt;Added &lt;a class=&quot;direct-link&quot; href=&quot;https://prismlauncher.org/news/release-1.4.0/#added&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Add concurrent tasks by @flowln in #786&lt;/li&gt;
 &lt;li&gt;Add more links to mod and modpack descriptions by @flowln and @DioEgizio in #634 #799&lt;/li&gt;
@@ -124,7 +124,7 @@ No longer should you need to deal with wrapper commands to enable &lt;a href=&qu
 &lt;li&gt;[macOS] Implement updater using Sparkle by @kthchew and @Scrumplex in #479&lt;/li&gt;
 &lt;li&gt;[OpenBSD] Readd support for OpenBSD by @Technous285 in #694&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&quot;changed&quot; tabindex=&quot;-1&quot;&gt;Changed &lt;a class=&quot;direct-link&quot; href=&quot;https://polymc.org/news/release-1.4.0/#changed&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;changed&quot; tabindex=&quot;-1&quot;&gt;Changed &lt;a class=&quot;direct-link&quot; href=&quot;https://prismlauncher.org/news/release-1.4.0/#changed&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Allow the cape to be changed without changing the skin by @Gingeh in #913&lt;/li&gt;
 &lt;li&gt;Cleanup Java code by @Scrumplex and @icelimetea in #778 #785 #800 #863&lt;/li&gt;
@@ -148,7 +148,7 @@ No longer should you need to deal with wrapper commands to enable &lt;a href=&qu
 &lt;li&gt;[Linux] Rewrite polymc.6 in scdoc by @EliteTK in #847 #901&lt;/li&gt;
 &lt;li&gt;[macOS] Build on macOS 12 in CI by @DioEgizio in #787&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&quot;fixed&quot; tabindex=&quot;-1&quot;&gt;Fixed &lt;a class=&quot;direct-link&quot; href=&quot;https://polymc.org/news/release-1.4.0/#fixed&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;fixed&quot; tabindex=&quot;-1&quot;&gt;Fixed &lt;a class=&quot;direct-link&quot; href=&quot;https://prismlauncher.org/news/release-1.4.0/#fixed&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Always scale mod icons to the right size by @flowln in #818&lt;/li&gt;
 &lt;li&gt;Don&#39;t censor offline access token by @ivanpu in #864&lt;/li&gt;
@@ -169,7 +169,7 @@ No longer should you need to deal with wrapper commands to enable &lt;a href=&qu
 &lt;li&gt;[macOS] Workaround Qt bug to fix menu bar separators by @kthchew in #827&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a href=&quot;https://github.com/PolyMC/PolyMC/compare/1.3.2...1.4.0&quot;&gt;https://github.com/PolyMC/PolyMC/compare/1.3.2...1.4.0&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;You can &lt;a href=&quot;https://polymc.org/download&quot;&gt;grab the latest download here&lt;/a&gt; for your respective platform.&lt;/p&gt;
+&lt;p&gt;You can &lt;a href=&quot;https://prismlauncher.org/download&quot;&gt;grab the latest download here&lt;/a&gt; for your respective platform.&lt;/p&gt;
 
         </description>
         <pubDate>2022-07-23T00:00:00Z</pubDate>
@@ -178,7 +178,7 @@ No longer should you need to deal with wrapper commands to enable &lt;a href=&qu
         
         
         <enclosure sparkle:os="macos"
-            url="https://github.com/PolyMC/PolyMC/releases/download/1.4.0/PolyMC-macOS-1.4.0.tar.gz"
+            url="https://github.com/placeholdermc/PrismLauncher/releases/download/1.4.0/PrismLauncher-macOS-1.4.0.tar.gz"
             length="0"
             type="application/octet-stream"
             sparkle:edSignature="v2Lgqsiw8Zs/Qq87k80BmaUvT+yLIE5P4iY9H80iKQ30GExflxF1WaUAQnVHYRHGxiZyFNwwWwQuLVAegy1RBQ=="/>
