@@ -7,6 +7,100 @@
     <language>en</language>
     
       <item>
+        <title>Prism Launcher Release 5.0, now available (macOS)</title>
+        <link>https://prismlauncher.org/news/release-5.0/</link>
+        <sparkle:version>5</sparkle:version>
+        <description>
+            &lt;p&gt;Hi there,&lt;/p&gt;
+&lt;p&gt;we are bringing you &lt;s&gt;PolyMC&lt;/s&gt; Prism Launcher 5.0!&lt;br /&gt;
+This major release not only comes with a new versioning system, but also a new name!&lt;br /&gt;
+But why you ask?&lt;br /&gt;
+Well, stuff happened and we are going to talk about everything that went down in a future blog post.&lt;br /&gt;
+For now we want you to regain access to the best Minecraft launcher out there.&lt;/p&gt;
+&lt;p&gt;Let&#39;s go over the major changes since the last &lt;em&gt;PolyMC&lt;/em&gt; release back in September.&lt;br /&gt;
+Our macOS users on Apple M1/M2 processors as well as our Nintendo Switch Linuxers can rejoice, as you can finally run all Minecraft versions on those platforms without needing to make any changes on your end.&lt;br /&gt;
+We have to thank &lt;a href=&quot;https://github.com/r58playz/&quot;&gt;some&lt;/a&gt; &lt;a href=&quot;https://github.com/theofficialgman/&quot;&gt;community&lt;/a&gt; &lt;a href=&quot;https://github.com/ViRb3&quot;&gt;members&lt;/a&gt; as well as the folks over at &lt;a href=&quot;https://github.com/MinecraftMachina/&quot;&gt;MinecraftMachina&lt;/a&gt; for helping out with this feature!&lt;/p&gt;
+&lt;p&gt;Apart from support for ARM64/ARM32 processors we are also bringing you our new modpack updater!&lt;br /&gt;
+For now this feature is limited to Modrinth and CurseForge modpacks.&lt;br /&gt;
+The process is a bit convoluted currently, but we hope to make it easier in the future with some upcoming UI changes.&lt;br /&gt;
+Please make a backup of your files before updating a modpack, as it is still a very early feature and we don&#39;t want you to lose anything you might want to keep.&lt;/p&gt;
+&lt;p&gt;As always we need to thank EVERYONE who contributed to PolyMC as well as Prism Launcher.&lt;br /&gt;
+Special thanks to our community members &lt;a href=&quot;https://cmdplusv.neocities.org/&quot;&gt;Boba&lt;/a&gt;, &lt;a href=&quot;https://auti.one/&quot;&gt;David Rafael&lt;/a&gt;, @elyrodso, &lt;a href=&quot;https://www.fulmine.xyz/&quot;&gt;Fulmine&lt;/a&gt;, @gonsawa, Pankakes and @tobimori who collaborated on our gorgeous logo.&lt;/p&gt;
+&lt;h2 id=&quot;changelog&quot; tabindex=&quot;-1&quot;&gt;Changelog &lt;a class=&quot;direct-link&quot; href=&quot;https://prismlauncher.org/news/release-5.0/#changelog&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;added&quot; tabindex=&quot;-1&quot;&gt;Added &lt;a class=&quot;direct-link&quot; href=&quot;https://prismlauncher.org/news/release-5.0/#added&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Add arm64 and arm32 support by @Scrumplex, @r58playz and @theofficialgman in #26 PolyMC/PolyMC#1033&lt;/li&gt;
+&lt;li&gt;Add basic resource/texture pack parsing and fix issues by @flowln and @Scrumplex in PolyMC/PolyMC#1105 PolyMC/PolyMC#1108 PolyMC/PolyMC#1150 PolyMC/PolyMC#1154&lt;/li&gt;
+&lt;li&gt;Add clear metadata action by @Scrumplex in #29&lt;/li&gt;
+&lt;li&gt;Add early modpack updating system by @flowln and @timoreo22 in PolyMC/PolyMC#894&lt;/li&gt;
+&lt;li&gt;Add image support for mod/modpack pages by @flowln in #31&lt;/li&gt;
+&lt;li&gt;Add Launch Demo button by @jopejoe1 and @flowln in PolyMC/PolyMC#903&lt;/li&gt;
+&lt;li&gt;Add Open All button to blocked mods dialog by @kumquat-ir in PolyMC/PolyMC#919&lt;/li&gt;
+&lt;li&gt;Detect GameMode and MangoHud, disable if not present by @Scrumplex in PolyMC/PolyMC#1034&lt;/li&gt;
+&lt;li&gt;Enable dark titlebar on Windows 10 by @DavidoTek in PolyMC/PolyMC#982&lt;/li&gt;
+&lt;li&gt;Preliminary work towards ATLauncher pack updates by @jamierocks in PolyMC/PolyMC#897&lt;/li&gt;
+&lt;li&gt;Trash instances instead of deleting by @ryanccn in PolyMC/PolyMC#549&lt;/li&gt;
+&lt;li&gt;[Windows] Find Java installs from PATH by @TayouVR in PolyMC/PolyMC#1068&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;changed&quot; tabindex=&quot;-1&quot;&gt;Changed &lt;a class=&quot;direct-link&quot; href=&quot;https://prismlauncher.org/news/release-5.0/#changed&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Allow double clicking to mark mods for download by @ErogigGit in PolyMC/PolyMC#1165&lt;/li&gt;
+&lt;li&gt;Improve language model by @Scrumplex in PolyMC/PolyMC#1164&lt;/li&gt;
+&lt;li&gt;Improve loading speed of the application by @flowln in PolyMC/PolyMC#878&lt;/li&gt;
+&lt;li&gt;Merge Launch Buttons by @TayouVR in PolyMC/PolyMC#1190&lt;/li&gt;
+&lt;li&gt;Support new Prism Launcher data path by @Scrumplex, @flowln and @FayneAldan in #25 #55 #82 #88&lt;/li&gt;
+&lt;li&gt;Reduce code duplication in tasks, fix some bugs and add some tests by @flowln in PolyMC/PolyMC#966&lt;/li&gt;
+&lt;li&gt;Refactor resource models by @flowln in PolyMC/PolyMC#1052 PolyMC/PolyMC#1094&lt;/li&gt;
+&lt;li&gt;Restructure Instance sidebar by @DioEgizio in #33&lt;/li&gt;
+&lt;li&gt;Restructure tests by @Scrumplex in PolyMC/PolyMC#1133&lt;/li&gt;
+&lt;li&gt;Switch to new API keys by @Scrumplex in #23&lt;/li&gt;
+&lt;li&gt;Switch to new branding by @Scrumplex, @NotNite in #13 #45 #54 #60 #92 #110&lt;/li&gt;
+&lt;li&gt;Switch to new versioning scheme by @Scrumplex in PolyMC/PolyMC#992&lt;/li&gt;
+&lt;li&gt;Switch to QCommandLineParser by @Scrumplex in PolyMC/PolyMC#1167&lt;/li&gt;
+&lt;li&gt;Switch to QSharedPointer by @flowln in PolyMC/PolyMC#1023&lt;/li&gt;
+&lt;li&gt;Switch to std::filesystem where possible by @flowln in PolyMC/PolyMC#1142&lt;/li&gt;
+&lt;li&gt;UI / UX improvements to the mod downloader by @flowln in PolyMC/PolyMC#939&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;fixed&quot; tabindex=&quot;-1&quot;&gt;Fixed &lt;a class=&quot;direct-link&quot; href=&quot;https://prismlauncher.org/news/release-5.0/#fixed&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Add missing includes to fix Qt 6.4 build by @Scrumplex in PolyMC/PolyMC#1172&lt;/li&gt;
+&lt;li&gt;Allow adding MSA account on first start by @Scrumplex in PolyMC/PolyMC#1183&lt;/li&gt;
+&lt;li&gt;Allow starting rd- versions by @Scrumplex in PolyMC/PolyMC#1146&lt;/li&gt;
+&lt;li&gt;Fix aborting network jobs by @flowln in PolyMC/PolyMC#1123&lt;/li&gt;
+&lt;li&gt;Fix and improve FTB modpack installation by @flowln in #27&lt;/li&gt;
+&lt;li&gt;Fix hosted weblate translation website URL by @nightsnowlinouo in #68&lt;/li&gt;
+&lt;li&gt;Fix instance copy on Linux and macOS by @flowln in #25&lt;/li&gt;
+&lt;li&gt;Fix mod icon issues and change delegate for Modrinth Modpacks by @flowln in PolyMC/PolyMC#1163&lt;/li&gt;
+&lt;li&gt;Fix version filter in mod downloader by @flowln in PolyMC/PolyMC#997&lt;/li&gt;
+&lt;li&gt;Remove opted out versions from the download selector when using the &#39;Any&#39; filter by @flowln in PolyMC/PolyMC#1194&lt;/li&gt;
+&lt;li&gt;Update libnbtplusplus submodule&#39;s URL by @flowln and @Scrumplex in #48&lt;/li&gt;
+&lt;li&gt;Update licensing information by @DioEgizio in #36&lt;/li&gt;
+&lt;li&gt;Update login message box by @Ozynt in PolyMC/PolyMC#1175&lt;/li&gt;
+&lt;li&gt;Use system gamemode client if possible by @Scrumplex in PolyMC/PolyMC#1210&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;removed&quot; tabindex=&quot;-1&quot;&gt;Removed &lt;a class=&quot;direct-link&quot; href=&quot;https://prismlauncher.org/news/release-5.0/#removed&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Remove outdated information about &amp;quot;upcoming&amp;quot; mod updater by @DioEgizio in PolyMC/PolyMC#1185&lt;/li&gt;
+&lt;li&gt;Remove unused libraries by @DioEgizio in PolyMC/PolyMC#1208&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Full Changelog: &lt;a href=&quot;https://github.com/PrismLauncher/PrismLauncher/compare/1.4.2...5.0&quot;&gt;https://github.com/PrismLauncher/PrismLauncher/compare/1.4.2...5.0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You can &lt;a href=&quot;https://github.com/PrismLauncher/PrismLauncher/releases/tag/5.0&quot;&gt;grab the latest download here&lt;/a&gt; for your respective platform.&lt;/p&gt;
+&lt;p&gt;Our dedicated download page is not available yet. :(&lt;/p&gt;
+
+        </description>
+        <pubDate>2022-10-19T00:00:00Z</pubDate>
+        <sparkle:minimumSystemVersion>10.14.0</sparkle:minimumSystemVersion>
+        
+        
+        
+        <enclosure sparkle:os="macos"
+            url="https://github.com/PrismLauncher/PrismLauncher/releases/download/5/PrismLauncher-macOS-5.tar.gz"
+            length="0"
+            type="application/octet-stream"
+            sparkle:edSignature="tTJSqjcCl47ih9LxrsMQLhcFjerfeVxW4rWXfEZ60wuR0Z0if1ZyHIEHrd26pYrL5/WyihgJbN1FLFQKyl/lCg=="/>
+      </item>
+    
+      <item>
         <title>PolyMC Update 1.4.2, now available (macOS)</title>
         <link>https://prismlauncher.org/news/release-1.4.2/</link>
         <sparkle:version>1.4.2</sparkle:version>
