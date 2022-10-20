@@ -27,11 +27,6 @@
   </url>
   
   <url>
-    <loc>https://prismlauncher.org/news/polymc2/</loc>
-    <lastmod>2022-04-01</lastmod>
-  </url>
-  
-  <url>
     <loc>https://prismlauncher.org/news/release-1.2.0/</loc>
     <lastmod>2022-04-17</lastmod>
   </url>
@@ -87,7 +82,22 @@
   </url>
   
   <url>
-    <loc>https://prismlauncher.org/download/2/</loc>
+    <loc>https://prismlauncher.org/download/linux/</loc>
+    <lastmod>2022-10-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://prismlauncher.org/download/mac/</loc>
+    <lastmod>2022-10-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://prismlauncher.org/download/steam-deck/</loc>
+    <lastmod>2022-10-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://prismlauncher.org/download/</loc>
     <lastmod>2022-10-20</lastmod>
   </url>
   
@@ -127,12 +137,12 @@
   </url>
   
   <url>
-    <loc>https://prismlauncher.org/tags/april-fools/</loc>
+    <loc>https://prismlauncher.org/tags/release/</loc>
     <lastmod>2022-10-20</lastmod>
   </url>
   
   <url>
-    <loc>https://prismlauncher.org/tags/release/</loc>
+    <loc>https://prismlauncher.org/tags/download/</loc>
     <lastmod>2022-10-20</lastmod>
   </url>
   
