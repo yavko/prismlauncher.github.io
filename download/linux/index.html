@@ -225,27 +225,14 @@ sudo dnf install prismlauncher-nightly
 ```
 
 </div>
-<div class="infobox top">
-
-# <img src="https://www.gentoo.org/assets/img/logo/gentoo-signet.svg" height="20" /> Gentoo
-
-Ebuilds are available in the official Gentoo repository, under [`games-action/prismlauncher`](https://packages.gentoo.org/packages/games-action/prismlauncher).
-Note that, for the time being, it is not stabilized, so it's masked for `~amd64` only.
-
-```bash
-sudo emaint sync -a
-
-# If you need to unmask the package, and considering `package.accept_keywords` to be a folder.
-echo ">=games-action/prismlauncher-1.1.1" | sudo tee -a /etc/portage/package.accept_keywords/prismlauncher
-# Or do this if you want to build from the latest commit instead of a release
-echo "=games-action/prismlauncher-9999 **" | sudo tee -a /etc/portage/package.accept_keywords/prismlauncher
-
-emerge games-action/prismlauncher
-```
-
-Old ebuilds, as well as additional information, can be found [in the old prismlauncher overlay repository](https://gitlab.com/flowln/prismlauncher-gentoo/). Have fun! :)
-</div>
 -->
+<div class="infobox top">
+<h1 id="gentoo" tabindex="-1"><img src="https://www.gentoo.org/assets/img/logo/gentoo-signet.svg" height="20" /> Gentoo <a class="direct-link" href="#gentoo" aria-hidden="true">#</a></h1>
+<p>Ebuilds are available in the official Gentoo repository, under <a href="https://packages.gentoo.org/packages/games-action/prismlauncher"><code>games-action/prismlauncher</code></a>.<br>
+Note that, for the time being, it is not stabilized, so it's masked for <code>~amd64</code> and <code>~arm64</code> only.</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">sudo</span> emaint <span class="token function">sync</span> -a<br><br><span class="token comment"># If you need to unmask the package, and considering `package.accept_keywords` to be a folder.</span><br><span class="token builtin class-name">echo</span> <span class="token string">">=games-action/prismlauncher-5.0"</span> <span class="token operator">|</span> <span class="token function">sudo</span> <span class="token function">tee</span> -a /etc/portage/package.accept_keywords/prismlauncher<br><span class="token comment"># Or do this if you want to build from the latest commit instead of a release</span><br><span class="token builtin class-name">echo</span> <span class="token string">"=games-action/prismlauncher-9999 **"</span> <span class="token operator">|</span> <span class="token function">sudo</span> <span class="token function">tee</span> -a /etc/portage/package.accept_keywords/prismlauncher<br><br>emerge games-action/prismlauncher</code></pre>
+<p>Have fun! :)</p>
+</div>
 <div class="infobox top">
 <h1 id="nix" tabindex="-1"><img src="https://www.vectorlogo.zone/logos/nixos/nixos-icon.svg" height="20" /> Nix <a class="direct-link" href="#nix" aria-hidden="true">#</a></h1>
 <p>A <a href="https://github.com/PrismLauncher/PrismLauncher/blob/develop/nix/NIX.md">Nix derivation</a> is available.</p>
