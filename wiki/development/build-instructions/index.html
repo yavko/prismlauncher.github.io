@@ -313,7 +313,7 @@ Both <code>flatpak</code> and <code>flatpak-builder</code> must be installed on 
 <p>If you don't want Prism Launcher to store its data in <code>%APPDATA%</code>, run <code>cmake --install build --component portable</code> after the install process</p>
 </li>
 <li>
-<p>In most cases, whenever compiling, the OpenSSL DLLs aren't put into the directory to where Prism Launcher installs, meaning that you cannot log in. The best way to fix this, is just to do <code>cp /mingw32/bin/libcrypto-1_1.dll /mingw32/bin/libssl-1_1.dll install</code>. This should copy the required OpenSSL DLLs to log in.</p>
+<p>When building on Qt 5, whenever compiling, the OpenSSL DLLs aren't put into the directory to where Prism Launcher installs which are necessary in that case, meaning that you cannot log in. The best way to fix this, is just to do <code>cp /mingw32/bin/libcrypto-1_1.dll /mingw32/bin/libssl-1_1.dll install</code>. This should copy the required OpenSSL DLLs to log in. When building on Qt 6 this is not necessary because it can use schannel, the Windows tls library.</p>
 </li>
 </ol>
 <h2 id="macos" tabindex="-1">macOS <a class="direct-link" href="#macos" aria-hidden="true">#</a></h2>
