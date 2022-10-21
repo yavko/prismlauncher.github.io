@@ -111,6 +111,11 @@
   </div>
 </div>
 <div class="infobox top">
+<h1 id="alpine-linux" tabindex="-1"><img src="https://www.vectorlogo.zone/logos/alpinelinux/alpinelinux-icon.svg" height="20"> Alpine Linux <a class="direct-link" href="#alpine-linux" aria-hidden="true">#</a></h1>
+<p><a href="https://pkgs.alpinelinux.org/packages?name=prismlauncher">APK Packages</a> are avalible on Alpine Linux Edge for multiple architectures</p>
+<pre class="language-bash"><code class="language-bash">apk <span class="token function">add</span> prismlauncher</code></pre>
+</div>
+<div class="infobox top">
 <h1 id="arch-linux-manjaro" tabindex="-1"><img src="https://www.vectorlogo.zone/logos/archlinux/archlinux-icon.svg" height="20"/> Arch Linux / Manjaro <a class="direct-link" href="#arch-linux-manjaro" aria-hidden="true">#</a></h1>
 <p>There are several AUR packages available:<br>
 <a href="https://aur.archlinux.org/packages/prismlauncher/"><img src="https://img.shields.io/badge/aur-prismlauncher-blue" alt="prismlauncher"></a><br>
@@ -123,8 +128,9 @@
 </div>
 <div class="infobox top">
 <h1 id="centos-stream-red-hat-enterprise-linux" tabindex="-1"><img src="https://www.vectorlogo.zone/logos/centos/centos-icon.svg" height="20"> CentOS Stream / Red Hat Enterprise Linux <a class="direct-link" href="#centos-stream-red-hat-enterprise-linux" aria-hidden="true">#</a></h1>
-<p>Two RPM packages are available on <a href="https://copr.fedorainfracloud.org/coprs/sentry/prismlauncher/">Copr</a>.</p>
-<pre class="language-bash"><code class="language-bash"><span class="token comment"># load in system information</span><br><span class="token builtin class-name">source</span> /etc/os-release<br><span class="token comment"># enables the copr repo</span><br><span class="token function">sudo</span> dnf copr <span class="token builtin class-name">enable</span> sentry/prismlauncher epel-<span class="token variable">${VERSION}</span>-<span class="token variable"><span class="token variable">$(</span><span class="token function">uname</span> -m<span class="token variable">)</span></span><br><span class="token comment"># stable releases</span><br><span class="token function">sudo</span> dnf <span class="token function">install</span> prismlauncher<br><span class="token comment"># nightly releases (git master)</span><br><span class="token function">sudo</span> dnf <span class="token function">install</span> prismlauncher-nightly</code></pre>
+<p>RPM packages are available on <a href="https://copr.fedorainfracloud.org/coprs/g3tchoo/prismlauncher/">Copr</a>. <br /><br>
+If you do not have the EPEL repositories enabled, please enable them <a href="https://www.redhat.com/sysadmin/install-epel-linux">here</a>.</p>
+<pre class="language-bash"><code class="language-bash"><span class="token comment"># enables the copr repo</span><br><span class="token function">sudo</span> dnf copr <span class="token builtin class-name">enable</span> g3tchoo/prismlauncher<br><span class="token comment"># stable releases</span><br><span class="token function">sudo</span> dnf <span class="token function">install</span> prismlauncher</code></pre>
 </div>
 <div class="infobox top">
 <h1 id="debian-ubuntu" tabindex="-1"><img src="https://www.vectorlogo.zone/logos/debian/debian-icon.svg" height="20" /> Debian / Ubuntu <a class="direct-link" href="#debian-ubuntu" aria-hidden="true">#</a></h1>
@@ -143,24 +149,15 @@ Several MPR packages are available:</p>
 <pre class="language-bash"><code class="language-bash"><span class="token comment"># stable source package:</span><br>una <span class="token function">install</span> prismlauncher<br><span class="token comment"># stable binary package:</span><br>una <span class="token function">install</span> prismlauncher-bin<br><span class="token comment"># latest git package:</span><br>una <span class="token function">install</span> prismlauncher-git</code></pre>
 <p>You can replace una install with your preferred <a href="https://docs.makedeb.org/using-the-mpr/list-of-mpr-helpers/">MPR helper's</a> install command.</p>
 </div>
-<!--
 <div class="infobox top">
-
-# <img src="https://www.vectorlogo.zone/logos/getfedora/getfedora-icon.svg" height="20"> Fedora
-
-Two RPM packages are available on [Copr](https://copr.fedorainfracloud.org/coprs/sentry/prismlauncher/).
-
-```bash
-# enables the copr repo
-sudo dnf copr enable sentry/prismlauncher
-# stable releases
-sudo dnf install prismlauncher
-# nightly releases (git master)
-sudo dnf install prismlauncher-nightly
-```
-
+<h1 id="fedora" tabindex="-1"><img src="https://www.vectorlogo.zone/logos/getfedora/getfedora-icon.svg" height="20"> Fedora <a class="direct-link" href="#fedora" aria-hidden="true">#</a></h1>
+<h2 id="copr" tabindex="-1">Copr <a class="direct-link" href="#copr" aria-hidden="true">#</a></h2>
+<p>RPM packages are available on <a href="https://copr.fedorainfracloud.org/coprs/g3tchoo/prismlauncher/">Copr</a>.</p>
+<pre class="language-bash"><code class="language-bash"><span class="token comment"># enables the copr repo</span><br><span class="token function">sudo</span> dnf copr <span class="token builtin class-name">enable</span> g3tchoo/prismlauncher<br><span class="token comment"># stable releases</span><br><span class="token function">sudo</span> dnf <span class="token function">install</span> prismlauncher</code></pre>
+<h2 id="terra" tabindex="-1">Terra <a class="direct-link" href="#terra" aria-hidden="true">#</a></h2>
+<p>Only available for users running Fedora 37 and up.</p>
+<pre class="language-bash"><code class="language-bash"><span class="token comment"># enables the terra repository</span><br><span class="token function">sudo</span> dnf config-manager --add-repo https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo<br><span class="token comment"># stable releases</span><br><span class="token function">sudo</span> dnf <span class="token function">install</span> prismlauncher</code></pre>
 </div>
--->
 <div class="infobox top">
 <h1 id="gentoo" tabindex="-1"><img src="https://www.gentoo.org/assets/img/logo/gentoo-signet.svg" height="20" /> Gentoo <a class="direct-link" href="#gentoo" aria-hidden="true">#</a></h1>
 <p>Ebuilds are available in the official Gentoo repository, under <a href="https://packages.gentoo.org/packages/games-action/prismlauncher"><code>games-action/prismlauncher</code></a>.<br>
@@ -171,29 +168,22 @@ Note that, for the time being, it is not stabilized, so it's masked for <code>~a
 <div class="infobox top">
 <h1 id="nix" tabindex="-1"><img src="https://www.vectorlogo.zone/logos/nixos/nixos-icon.svg" height="20" /> Nix <a class="direct-link" href="#nix" aria-hidden="true">#</a></h1>
 <p>A <a href="https://github.com/PrismLauncher/PrismLauncher/blob/develop/nix/NIX.md">Nix derivation</a> is available.</p>
-<p>A package is available on <code>nixos-unstable-small</code> and will soon be available on <code>nixos-unstable</code>.</p>
+<p>Packages are available on <code>nixos-small-unstable</code>, <code>nixos-unstable</code>, and on <code>nixpkgs-unstable</code>. Packages will be available soon on <code>nix-22.05</code>.</p>
 </div>
-<!--
 <div class="infobox top">
-
-# <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/OpenSUSE_Logo.svg" height="20"> openSuse
-
-Prism Launcher is available on the [game:tools](https://software.opensuse.org/download.html?project=games%3Atools&package=prismlauncher) community repository.
-
+<h1 id="opensuse" tabindex="-1"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/OpenSUSE_Logo.svg" height="20"> openSUSE <a class="direct-link" href="#opensuse" aria-hidden="true">#</a></h1>
+<p>RPM packages are available on the <a href="https://download.opensuse.org/repositories/home:/getchoo/">openSUSE Build Service</a>.</p>
+<pre class="language-bash"><code class="language-bash"><span class="token comment"># add repository (if on leap, replace 'openSUSE_Tumbleweed' with '15.4')</span><br><span class="token function">zypper</span> addrepo https://download.opensuse.org/repositories/home:getchoo/openSUSE_Tumbleweed/home:getchoo.repo<br><span class="token comment"># refresh repository cache</span><br><span class="token function">zypper</span> refresh<br><span class="token comment"># stable releases (Qt6 version, only for Tumbleweed)</span><br><span class="token function">zypper</span> <span class="token function">install</span> prismlauncher<br><span class="token comment"># stable releases (Qt5 version, available for Leap and Tumbleweed)</span><br><span class="token function">zypper</span> <span class="token function">install</span> prismlauncher-qt5</code></pre>
 </div>
-
 <div class="infobox top">
-
-# <img src="https://bitcu.co/en/wp-content/uploads/2020/07/Void_Linux_logo.svg_.png" height="20"> Void Linux
-
-Prism Launcher is available on the official Void repository.
-
-```bash
-sudo xbps-install PrismLauncher
-```
-
+<h1 id="raspberry-pi" tabindex="-1"><img src="https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg" height="20"> Raspberry Pi <a class="direct-link" href="#raspberry-pi" aria-hidden="true">#</a></h1>
+<p>Prism Launcher is avalible in <a href="https://github.com/Botspot/pi-apps">pi-apps</a> repository.</p>
 </div>
--->
+<div class="infobox top">
+<h1 id="void-linux" tabindex="-1"><img src="https://bitcu.co/en/wp-content/uploads/2020/07/Void_Linux_logo.svg_.png" height="20"> Void Linux <a class="direct-link" href="#void-linux" aria-hidden="true">#</a></h1>
+<p>Prism Launcher is available on the official Void repository.</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">sudo</span> xbps-install PrismLauncher</code></pre>
+</div>
 
 
 </main>
