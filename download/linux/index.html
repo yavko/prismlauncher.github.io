@@ -133,7 +133,7 @@ If you do not have the EPEL repositories enabled, please enable them <a href="ht
 <pre class="language-bash"><code class="language-bash"><span class="token comment"># enables the copr repo</span><br><span class="token function">sudo</span> dnf copr <span class="token builtin class-name">enable</span> g3tchoo/prismlauncher<br><span class="token comment"># stable releases</span><br><span class="token function">sudo</span> dnf <span class="token function">install</span> prismlauncher</code></pre>
 </div>
 <div class="infobox top">
-<h1 id="debian-ubuntu" tabindex="-1"><img src="https://www.vectorlogo.zone/logos/debian/debian-icon.svg" height="20" /> Debian / <img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" height="20" /> Ubuntu <a class="direct-link" href="#debian-ubuntu" aria-hidden="true">#</a></h1>
+<h1 id="debian-ubuntu-(x86_64)" tabindex="-1"><img src="https://www.vectorlogo.zone/logos/debian/debian-icon.svg" height="20" /> Debian / <img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" height="20" /> Ubuntu (x86_64) <a class="direct-link" href="#debian-ubuntu-(x86_64)" aria-hidden="true">#</a></h1>
 <p>We use <a href="https://docs.makedeb.org/">makedeb</a> for our Debian packages.<br>
 Several MPR packages are available:</p>
 <p><a href="https://mpr.makedeb.org/packages/prismlauncher"><img src="https://img.shields.io/badge/mpr-prismlauncher-orange" alt="prismlauncher"></a><br>
@@ -148,6 +148,12 @@ Several MPR packages are available:</p>
 <p>Installing Prism Launcher</p>
 <pre class="language-bash"><code class="language-bash"><span class="token comment"># stable source package:</span><br>una <span class="token function">install</span> prismlauncher<br><span class="token comment"># stable binary package:</span><br>una <span class="token function">install</span> prismlauncher-bin<br><span class="token comment"># latest git package:</span><br>una <span class="token function">install</span> prismlauncher-git</code></pre>
 <p>You can replace una install with your preferred <a href="https://docs.makedeb.org/using-the-mpr/list-of-mpr-helpers/">MPR helper's</a> install command.</p>
+</div>
+<div class="infobox top">
+<h1 id="debian-pi-os-ubuntu-(arm3264)" tabindex="-1"><img src="https://www.vectorlogo.zone/logos/debian/debian-icon.svg" height="20" /> Debian / <img src="https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg" height="20" /> Pi OS / <img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" height="20" /> Ubuntu (ARM32/64) <a class="direct-link" href="#debian-pi-os-ubuntu-(arm3264)" aria-hidden="true">#</a></h1>
+<p>Prism Launcher is avalible in the <a href="https://github.com/Botspot/pi-apps">pi-apps</a> store as a deb install.</p>
+<p>NOTE: Only supports Debian/Raspbian/Pi OS Buster and newer and Ubuntu 18.04 and newer.<br>
+<em>Debian-based ARM packages are community-maintained, Prism Launcher is not responsible for outdated versions.</em></p>
 </div>
 <div class="infobox top">
 <h1 id="fedora" tabindex="-1"><img src="https://www.vectorlogo.zone/logos/getfedora/getfedora-icon.svg" height="20"> Fedora <a class="direct-link" href="#fedora" aria-hidden="true">#</a></h1>
@@ -174,10 +180,6 @@ Note that, for the time being, it is not stabilized, so it's masked for <code>~a
 <h1 id="opensuse" tabindex="-1"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/OpenSUSE_Logo.svg" height="20"> openSUSE <a class="direct-link" href="#opensuse" aria-hidden="true">#</a></h1>
 <p>RPM packages are available on the <a href="https://download.opensuse.org/repositories/home:/getchoo/">Open Build Service</a>.</p>
 <pre class="language-bash"><code class="language-bash"><span class="token comment"># add repository (if on leap, replace 'openSUSE_Tumbleweed' with '15.4')</span><br><span class="token function">zypper</span> addrepo https://download.opensuse.org/repositories/home:getchoo/openSUSE_Tumbleweed/home:getchoo.repo<br><span class="token comment"># refresh repository cache</span><br><span class="token function">zypper</span> refresh<br><span class="token comment"># stable releases (Qt6 version, only for Tumbleweed)</span><br><span class="token function">zypper</span> <span class="token function">install</span> prismlauncher<br><span class="token comment"># stable releases (Qt5 version, available for Leap and Tumbleweed)</span><br><span class="token function">zypper</span> <span class="token function">install</span> prismlauncher-qt5</code></pre>
-</div>
-<div class="infobox top">
-<h1 id="raspberry-pi" tabindex="-1"><img src="https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg" height="20"> Raspberry Pi <a class="direct-link" href="#raspberry-pi" aria-hidden="true">#</a></h1>
-<p>Prism Launcher is avalible in <a href="https://github.com/Botspot/pi-apps">pi-apps</a> repository.</p>
 </div>
 <div class="infobox top">
 <h1 id="void-linux" tabindex="-1"><img src="https://bitcu.co/en/wp-content/uploads/2020/07/Void_Linux_logo.svg_.png" height="20"> Void Linux <a class="direct-link" href="#void-linux" aria-hidden="true">#</a></h1>
