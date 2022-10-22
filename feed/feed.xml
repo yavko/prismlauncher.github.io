@@ -51,6 +51,7 @@ Special thanks to our community members &lt;a href=&quot;https://cmdplusv.neocit
 &lt;h3 id=&quot;changed&quot; tabindex=&quot;-1&quot;&gt;Changed &lt;a class=&quot;direct-link&quot; href=&quot;https://prismlauncher.org/news/release-5.0/#changed&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Allow double clicking to mark mods for download by @ErogigGit in PolyMC/PolyMC#1165&lt;/li&gt;
+&lt;li&gt;Allow modifying some resource while the instance is running by @CutestNekoAqua in #59&lt;/li&gt;
 &lt;li&gt;Improve language model by @Scrumplex in PolyMC/PolyMC#1164&lt;/li&gt;
 &lt;li&gt;Improve loading speed of the application by @flowln in PolyMC/PolyMC#878&lt;/li&gt;
 &lt;li&gt;Merge Launch Buttons by @TayouVR in PolyMC/PolyMC#1190&lt;/li&gt;
