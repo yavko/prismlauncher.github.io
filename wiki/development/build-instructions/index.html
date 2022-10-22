@@ -84,12 +84,10 @@
 <h3 id="build-dependencies" tabindex="-1">Build dependencies <a class="direct-link" href="#build-dependencies" aria-hidden="true">#</a></h3>
 <ul>
 <li>A C++ compiler capable of building C++17 code.</li>
-<li>Qt Development tools 5.12 or newer (<code>qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools libqt5core5a libqt5network5 libqt5gui5</code> on Debian-based systems)
-<ul>
+<li>Qt Development tools 5.12 or newer (<code>qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools libqt5core5a libqt5network5 libqt5gui5</code> on Debian-based systems)</li>
 <li>Alternatively you can also use Qt 6.0 or newer (<code>qt6-base-dev qtchooser qt6-base-dev-tools libqt6core6 libqt6core5compat6-dev libqt6network6</code> on Debian (testing/unstable) based systems), if you prefer it.</li>
-</ul>
-</li>
 <li>cmake 3.15 or newer (<code>cmake</code> on Debian-based system)</li>
+<li>ninja (<code>ninja-build</code> on Debian-based systems)</li>
 <li>extra-cmake-modules (<code>extra-cmake-modules</code> on Debian-based system)</li>
 <li>zlib (<code>zlib1g-dev</code> on Debian-based system)</li>
 <li>Java JDK (<code>openjdk-17-jdk</code> on Debian-based system)</li>
@@ -98,10 +96,10 @@
 </ul>
 <p>You can use IDEs, like KDevelop, QtCreator or CLion to open the CMake project, if you want to work on the code.</p>
 <h3 id="building-a-portable-binary" tabindex="-1">Building a portable binary <a class="direct-link" href="#building-a-portable-binary" aria-hidden="true">#</a></h3>
-<pre class="language-bash"><code class="language-bash">cmake -S <span class="token builtin class-name">.</span> -B build <span class="token punctuation">\</span><br>   -DCMAKE_INSTALL_PREFIX<span class="token operator">=</span>install<br><span class="token comment">#  -DLauncher_QT_VERSION_MAJOR="6" # if you want to use Qt 6</span><br><br>cmake --build build -j<span class="token variable"><span class="token variable">$(</span>nproc<span class="token variable">)</span></span><br>cmake --install build<br>cmake --install build --component portable</code></pre>
+<pre class="language-bash"><code class="language-bash">cmake -S <span class="token builtin class-name">.</span> -B build -G Ninja <span class="token punctuation">\</span><br>   -DCMAKE_INSTALL_PREFIX<span class="token operator">=</span>install<br><span class="token comment">#  -DLauncher_QT_VERSION_MAJOR="6" # if you want to use Qt 6</span><br><br>cmake --build build<br>cmake --install build<br>cmake --install build --component portable</code></pre>
 <h3 id="building-and-installing-to-the-system" tabindex="-1">Building &amp; installing to the system <a class="direct-link" href="#building-and-installing-to-the-system" aria-hidden="true">#</a></h3>
 <p>This is the preferred method of installation, and is suitable for packages.</p>
-<pre class="language-bash"><code class="language-bash">cmake -S <span class="token builtin class-name">.</span> -B build <span class="token punctuation">\</span><br>   -DCMAKE_BUILD_TYPE<span class="token operator">=</span>Release <span class="token punctuation">\</span><br>   -DCMAKE_INSTALL_PREFIX<span class="token operator">=</span><span class="token string">"/usr"</span> <span class="token punctuation">\</span> <span class="token comment"># Use "/usr" when building Linux packages. If building not for package, use "/usr/local"</span><br>   -DENABLE_LTO<span class="token operator">=</span>ON <span class="token comment"># if you want to enable LTO/IPO</span><br><span class="token comment">#  -DLauncher_QT_VERSION_MAJOR="6" # if you want to use Qt 6</span><br><br>cmake --build build -j<span class="token variable"><span class="token variable">$(</span>nproc<span class="token variable">)</span></span><br>cmake --install build <span class="token comment"># Optionally specify DESTDIR for packages (i.e. DESTDIR=${pkgdir} cmake --install ...)</span></code></pre>
+<pre class="language-bash"><code class="language-bash">cmake -S <span class="token builtin class-name">.</span> -B build -G Ninja <span class="token punctuation">\</span><br>   -DCMAKE_BUILD_TYPE<span class="token operator">=</span>Release <span class="token punctuation">\</span><br>   -DCMAKE_INSTALL_PREFIX<span class="token operator">=</span><span class="token string">"/usr"</span> <span class="token punctuation">\</span> <span class="token comment"># Use "/usr" when building Linux packages. If building not for package, use "/usr/local"</span><br>   -DENABLE_LTO<span class="token operator">=</span>ON <span class="token comment"># if you want to enable LTO/IPO</span><br><span class="token comment">#  -DLauncher_QT_VERSION_MAJOR="6" # if you want to use Qt 6</span><br><br>cmake --build build<br>cmake --install build <span class="token comment"># Optionally specify DESTDIR for packages (i.e. DESTDIR=${pkgdir} cmake --install ...)</span></code></pre>
 <h3 id="building-a-.deb" tabindex="-1">Building a .deb <a class="direct-link" href="#building-a-.deb" aria-hidden="true">#</a></h3>
 <p>Requirements: <a href="https://docs.makedeb.org/">makedeb</a> installed on your system.</p>
 <pre class="language-bash"><code class="language-bash"><span class="token function">git</span> clone https://mpr.makedeb.org/prismlauncher.git<br><span class="token builtin class-name">cd</span> prismlauncher<br>makedeb -s</code></pre>
